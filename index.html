@@ -1,0 +1,235 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FurniShop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            saira: ["Saira", "serif"],
+          },
+          extend: {
+            colors: {
+              white: "#FFFFFF",
+              Black: "#23262F",
+              backGris: "#EAEEF3",
+              green: "#286F6C",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .slider {
+        transition: transform 0.5s ease-in-out;
+        pointer-events: auto;
+      }
+    </style>
+  </head>
+  <body class="font-[saira]">
+    <section style="background-image: url('images/living-room.png')">
+      <nav class="flex px-[130px] py-[30px] justify-between items-center">
+        <div class="">
+          <h2 class="font-[saira] font-bold text-[36px] text-white">
+            FurniShop
+          </h2>
+        </div>
+        <div>
+          <ul class="flex space-x-[64px] font-[saira] text-white">
+            <li class="hover:font-bold cursor-pointer">Home</li>
+            <li class="hover:font-bold cursor-pointer">About</li>
+            <li class="hover:font-bold cursor-pointer">Features</li>
+            <li class="hover:font-bold cursor-pointer">Contact</li>
+          </ul>
+        </div>
+      </nav>
+      <section class="bg-cover bg-center bg-no-repeat h-[100vh] text-center">
+        <div class="container mx-auto px-[100px] py-[100px]">
+          <h1 class="text-[64px] font-bold mb-4 text-white">
+            Creative Home Simplify Your Furniture
+          </h1>
+          <p class="text-lg mb-8 text-white">
+            Do i have consent to record this meeting gain locaion,
+            root-and-branch, review, nor game plan who's the goto
+          </p>
+          <button
+            class="backdrop-blur-sm text-white font-bold py-2 bg-[white]/40 px-10 rounded"
+          >
+            Shop Now
+          </button>
+        </div>
+      </section>
+    </section>
+    <div class="container mx-auto px-4 mt-[-100px]">
+      <div
+        class="grid grid-cols-1 bg-green md:grid-cols-4 gap-8 rounded-[20px] p-4"
+      >
+        <div class="bg-green p-8 text-center border-r-[1px] border-white">
+          <h2 class="text-2xl text-white font-bold mb-4">7</h2>
+          <p class="text-lg text-white">Year Experience</p>
+        </div>
+        <div class="bg-green p-8 text-center border-r-[1px] border-white">
+          <h2 class="text-2xl text-white font-bold mb-4">2</h2>
+          <p class="text-lg text-white">Opened in the country</p>
+        </div>
+        <div class="bg-green p-8 text-center border-r-[1px] border-white">
+          <h2 class="text-2xl text-white font-bold mb-4">10k+</h2>
+          <p class="text-lg text-white">Furniture sold</p>
+        </div>
+        <div class="bg-green p-8 text-center">
+          <h2 class="text-2xl text-white font-bold mb-4">260+</h2>
+          <p class="text-lg text-white">Variant Furniture</p>
+        </div>
+      </div>
+    </div>
+    <section
+      class="container mx-auto px-4 py-[80px] flex items-center space-x-[100px]"
+    >
+      <div>
+        <img class="rounded-md" src="images/peng.png" alt="" />
+      </div>
+      <div class="flex flex-col space-y-[40px]">
+        <h2 class="text-[40px]">We Create your home more aestetic</h2>
+        <p class="text-[20px]">
+          Furnitre power is a software as services for multiperpose business
+          management system,
+        </p>
+        <div class="flex space-x-4">
+          <div><img src="images/Ic_chechlist.png" alt="" /></div>
+          <div class="flex flex-col">
+            <h2 class="text-[20px] font-semibold">Valuation Services</h2>
+            <p class="text-[16px]">
+              Sometimes features require a short description. This can be
+              detailed description
+            </p>
+          </div>
+        </div>
+        <div class="flex space-x-4">
+          <div>
+            <img src="images/Ic_chechlist.png" alt="" />
+          </div>
+          <div class="flex flex-col">
+            <h2 class="text-[20px] font-semibold">
+              Development of Furniture Modelss
+            </h2>
+            <p class="text-[16px]">
+              Sometimes features require a short description. This can be
+              detailed description
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="py-10 pl-[100px] space-x-[60px] flex items-center justify-between"
+    >
+      <div class="space-y-[90px]">
+        <h2 class="text-3xl mb-4 text-[40px]">New In Store Now</h2>
+        <p class="mb-4">Get the latest items immediately with promo prices</p>
+        <div class="flex items-center space-x-2">
+          <button>Check All</button>
+          <div class="w-[16px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              className="size-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div id="slider" class="flex overflow-hidden cursor-grab space-x-2">
+          <div
+            style="
+              background-image: url('images/lui-peng-8NxTrV6i4WQ-unsplash.png');
+            "
+            class="flex-shrink-0 w-[265px] h-[400px]"
+          ></div>
+          <div
+            style="
+              background-image: url('images/erik-mclean-Ij9nIghkI6k-unsplash.png');
+            "
+            class="flex-shrink-0 w-[265px] h-[400px]"
+          ></div>
+          <div
+            style="background-image: url('images/sanibell.png')"
+            class="flex-shrink-0 w-[265px] h-[400px]"
+          ></div>
+          <div class="flex-shrink-0">
+            <img
+              class="w-[265px] h-[400px]"
+              src="images/jean-philippe-delberghe-Ry9WBo3qmoc-unsplash.png"
+              alt="Chair"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <section
+      class="container mx-auto px-4 py-[80px] flex items-center space-x-[100px]"
+    >
+      <div class="flex flex-col space-y-[40px]">
+        <h2 class="text-[40px]">What people are saying about us</h2>
+        <div class="flex items-center space-x-4">
+          <div><img src="images/Ellipse 202.png" alt="" /></div>
+          <div class="">
+            <h2 class="text-[20px] font-semibold">Josh Smith</h2>
+            <p class="text-[16px]">Manager of The New York Times</p>
+          </div>
+        </div>
+        <p class="text-[20px]">
+          “They are have a perfect touch for make something so professional
+          ,interest and useful for a lot of people .”
+        </p>
+      </div>
+      <div class="w1/2">
+        <img class="rounded-md w-[700px]" src="images/house.png" alt="" />
+      </div>
+    </section>
+    <section
+      class="h-[490px] grid grid-cols-2"
+      style="background-image: url('images/lamp.png')"
+    >
+      <div></div>
+      <div class="py-[100px] space-y-[30px]">
+        <div>
+          <h2 class="text-[40px] font-semibold text-white">
+            Get more discount <br />
+            Off your order
+          </h2>
+          <p class="text-[20px] text-white">Join our mailing list</p>
+        </div>
+        <div class="">
+          <input
+            class="bg-withe p-4 rounded-md w-[300px]"
+            type="text"
+            placeholder="Your email address"
+          />
+          <button class="bg-[#23262F] p-4 text-white rounded-md">
+            Shop Now
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
